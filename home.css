@@ -1,0 +1,22 @@
+div{
+    border:solid 1px;
+}
+.sekil{
+    width: 200px;
+ 
+}
+.mainnav{
+    float: left;
+  
+}
+.mainnav li a{
+    color: red;
+    font-family: "Montserrat";
+}
+.dropdown-menu{
+    transition: all 5s ease-in-out 0s;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
