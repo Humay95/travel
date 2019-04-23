@@ -1,17 +1,24 @@
 div{
-    border:solid 1px;
+
+    position: relative;
 }
 .sekil{
-    width: 200px;
- 
+    width: 180px;
+
 }
 .mainnav{
     float: left;
-  
+    padding-top: 20px;
 }
 .mainnav li a{
-    color: red;
+    color:black;
     font-family: "Montserrat";
+}
+.bag{
+    display: flex;
+}
+.bag i{
+    padding: 10px;
 }
 .dropdown-menu{
     transition: all 5s ease-in-out 0s;
@@ -20,3 +27,81 @@ div{
     display: block;
     
   }
+  .container{
+      margin-top: 0px;
+  }
+  .search{
+      text-align: center;
+  }
+  /* .search{
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+   
+  } */
+  .submenu{
+      display:none; 
+    
+  }
+  .hamburger{
+      padding:20px;
+      font-size: 25px;
+      display:none;
+      color:#fff;
+  }
+  .navElement{
+    z-index: 200;
+  }
+  .navElement:hover .submenu{
+      display: block;
+  }
+  #magnificient{
+      background: url(bg.jpg);
+height: 1000px;
+width: 100%;
+background-repeat: no-repeat;
+  }
+  @media (max-width:760px){
+      #header{
+          display:none;
+      }
+  }
+  .submenu{
+      position: absolute;
+      left: 0;
+      top: 60px;
+      right: 0;
+      background-color: white;
+      padding: 10px;
+  }
+  .submenu ul li{
+color: #000;
+list-style: none;
+  }
+#searchtour{
+    box-shadow: 0 0 15px rgba(24,24,24,.15);
+    padding: 45px 15px;
+    background: white;
+    position: relative;
+    top: -150px;
+    border-bottom: 1px solid blue;
+
+}
+.mainIcon{
+    position: relative;
+    font-size: 18px;
+    left: -35px;
+    top: 10px;
+z-index: 5;
+}
+.container p{
+    font-size: 16.8px;
+  font-family: "Barlow Semi Condensed";
+  font-weight: initial;
+  letter-spacing: initial;
+}
+.items{
+    display: flex;
+}
+.item{
+    margin-right: 15PX;
+   flex:1;
+}
